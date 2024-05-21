@@ -1,0 +1,272 @@
+$date
+	Mon May 20 19:43:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CC_TB $end
+$var wire 1 ! done $end
+$var wire 8 " reg_out_en [7:0] $end
+$var wire 8 # reg_in_en [7:0] $end
+$var wire 1 $ g_reg_en $end
+$var wire 1 % ext_data_low_reg_en $end
+$var wire 1 & ext_data_en $end
+$var wire 1 ' alu_sel $end
+$var wire 1 ( alu_reg_en $end
+$var wire 1 ) alu_out_en $end
+$var reg 1 * clk $end
+$var reg 4 + count [3:0] $end
+$var reg 16 , instr [15:0] $end
+$scope module pleasework $end
+$var wire 1 * clk $end
+$var wire 1 ! done $end
+$var wire 16 - instr [15:0] $end
+$var reg 4 . RX [3:0] $end
+$var reg 4 / RY [3:0] $end
+$var reg 1 ) alu_out_en $end
+$var reg 1 ( alu_reg_en $end
+$var reg 1 ' alu_sel $end
+$var reg 1 & ext_data_en $end
+$var reg 1 % ext_data_low_reg_en $end
+$var reg 1 $ g_reg_en $end
+$var reg 5 0 next_state [4:0] $end
+$var reg 4 1 opcode [3:0] $end
+$var reg 8 2 reg_in_en [7:0] $end
+$var reg 8 3 reg_out_en [7:0] $end
+$var reg 5 4 state [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b1 .
+b100000000 -
+b100000000 ,
+b0 +
+0*
+0)
+0(
+0'
+0&
+x%
+0$
+b0 #
+b0 "
+z!
+$end
+#50
+b100000001 ,
+b100000001 -
+b1 +
+1*
+#100
+b1 0
+0*
+#150
+1%
+b10 +
+b1 4
+1*
+#200
+b10000 0
+0*
+#250
+b10 .
+b10 #
+b10 2
+1&
+0%
+b1000000001 ,
+b1000000001 -
+b10000 4
+b11 +
+1*
+#300
+b0 0
+0*
+#350
+b0 #
+b0 2
+0&
+b100 +
+b0 4
+1*
+#400
+b1 0
+0*
+#450
+1%
+b1 4
+b101 +
+1*
+#500
+b10000 0
+0*
+#550
+b0 .
+b0 ,
+b0 -
+b100 #
+b100 2
+1&
+0%
+b110 +
+b10000 4
+1*
+#600
+b0 0
+0*
+#650
+b0 #
+b0 2
+0&
+b0 4
+b111 +
+1*
+#700
+b1 0
+0*
+#750
+1%
+b1000 +
+b1 4
+1*
+#800
+b10000 0
+0*
+#850
+b1 #
+b1 2
+1&
+0%
+b10000 4
+b1001 +
+1*
+#900
+b0 0
+0*
+#950
+b0 #
+b0 2
+0&
+b1010 +
+b0 4
+1*
+#1000
+b1 0
+0*
+#1050
+1%
+b1 4
+b1011 +
+1*
+#1100
+b10000 0
+0*
+#1150
+b1 #
+b1 2
+1&
+0%
+b1100 +
+b10000 4
+1*
+#1200
+b0 0
+0*
+#1250
+b0 #
+b0 2
+0&
+b0 4
+b1101 +
+1*
+#1300
+b1 0
+0*
+#1350
+1%
+b1110 +
+b1 4
+1*
+#1400
+b10000 0
+0*
+#1450
+b1 #
+b1 2
+1&
+0%
+b10000 4
+b1111 +
+1*
+#1500
+b0 0
+0*
+#1550
+b1 .
+b100000000 ,
+b100000000 -
+b0 #
+b0 2
+0&
+b0 +
+b0 4
+1*
+#1600
+b1 0
+0*
+#1650
+1%
+b100000001 ,
+b100000001 -
+b1 4
+b1 +
+1*
+#1700
+b10000 0
+0*
+#1750
+b10 #
+b10 2
+1&
+0%
+b10 +
+b10000 4
+1*
+#1800
+b0 0
+0*
+#1850
+b10 .
+b0 #
+b0 2
+0&
+b1000000001 ,
+b1000000001 -
+b0 4
+b11 +
+1*
+#1900
+b1 0
+0*
+#1950
+1%
+b100 +
+b1 4
+1*
+#2000
+b10000 0
+0*
