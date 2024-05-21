@@ -33,7 +33,17 @@ module InstructionMemory (
         memory[4] = 16'b0001010100010000; // MOV;
         memory[5] = 16'b1111000000000000; // NOP;
         memory[6] = 16'b0101010100010000; // ADD;
-        // ...
+        memory[7] = 16'b0101010100010000; // ADD;
+        memory[8] = 16'b0101010100010000; // ADD;
+        memory[9] = 16'b0101010100010000; // NOP;
+        memory[10] = 16'b0111010100010000; // XOR;
+        memory[11] = 16'b0111010100010000; // XOR;
+        memory[12] = 16'b0111010100010000; // XOR;
+        memory[13] = 16'b0111000000000000; // NOP;
+        memory[14] = 16'b1111000000000000; // NOP;
+        memory[16] = 16'b1111000000000000; // NOP;
+        memory[255:17] = 16'b11110000000000; 
+
 
         instr = memory[address];
     end
